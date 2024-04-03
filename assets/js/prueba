@@ -1,0 +1,28 @@
+<div class="container col-ig-10 col-md-10 col-sm-5 col-xs-5">
+        <div class="row ajuste_row">
+            <article >
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/animal-fondo.jpg" class="d-block w-100" alt="animal 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/animal 2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/animal 3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    <h1>todos los animales necesitan un hogar</h1>
+                  </div>
+              </article>
+        </div>
+    </div>
