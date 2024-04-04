@@ -160,14 +160,30 @@ div div img{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Asegura que el encabezado esté en la parte superior */
+    z-index: 1000; 
 }
 
 .carousel-container {
-    position: relative; /* Establece un contexto de posicionamiento para los elementos secundarios */
-    margin-top: 100px; /* Ajusta este valor según la altura de tu encabezado */
+    position: relative; 
+    margin-top: 100px; 
 }
 
 .container{
     padding-top: 9rem;
+}
+
+
+main{
+    padding-top: 5rem;
+    color: rgba(255, 255, 255, 0.836);
+    text-align: center;
+
+}
+
+section{
+    margin: 0 10rem;
+    padding-bottom: 2rem;
+    background-color: #000000a1;
+    border-radius: 20px;
+
 }
