@@ -144,12 +144,30 @@ main article{
 
 .carousel-item{
 
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 60%;
     display: blocks;
+    align-content: center;
 }
 
 div div img{
     padding: 0 20 20 20;
     margin: 10;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el encabezado esté en la parte superior */
+}
+
+.carousel-container {
+    position: relative; /* Establece un contexto de posicionamiento para los elementos secundarios */
+    margin-top: 100px; /* Ajusta este valor según la altura de tu encabezado */
+}
+
+.container{
+    padding-top: 9rem;
 }
