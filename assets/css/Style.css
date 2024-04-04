@@ -33,6 +33,14 @@ ul{
 }
 
 
+ul li a{
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
 ul li{
     width: 100%;
     height: 50px;
@@ -45,7 +53,7 @@ ul li{
 }
 
 
-ul li:hover{
+ul li a:hover{
     background-color: rgba(219, 113, 14, 0.747);
 }
 
@@ -57,16 +65,91 @@ ul li:hover ul li{
     display: block;
 }
 
-.logo{
-    display: flex;
-    height: 5rem;
-    width: 5rem;
+ul li ul li a{
+    font-family:'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
 }
 
-.ajuste_row{
-    max-width: 50%;
+
+article{
+    color: white;
+}
+
+main article{
+
+    margin-top: 10rem;
+    display: block;
+    align-content: center;
+}
+
+.article-style{
     justify-content: center;
-    align-items: center;
-    align-content:center ;
+    align-content: center;
+    border-radius: .6rem;
+    margin-top: .9rem;
+}
+.titulo{
+    text-align: center;
 }
 
+.parrafo-style1{
+    text-align: justify;
+    padding: 0 .9rem .9rem .9rem;
+    color: white;
+}
+
+
+.btn-card{
+    margin-top: .7rem;
+    padding: .8rem;
+    border-color: #000;
+    border-radius: .6rem;
+    border: .2rem;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+.btn-card:hover{
+    background-color: rgba(73, 53, 22, 0.247);
+    transition: ease-in-out .3s;
+    color: white;
+    cursor: pointer;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(rgba(117, 103, 103, 0.521), green, blue, alpha);
+    padding: .8rem;
+    border-radius: .6rem;
+    margin: .5rem;
+}
+.card-img{
+    border-radius: .3rem;
+}
+
+.carousel-item{
+
+    height: 100%;
+    width: 100%;
+    display: blocks;
+}
+
+div div img{
+    padding: 0 20 20 20;
+    margin: 10;
+}
